@@ -1,0 +1,18 @@
+{
+  "name": "vouga-scraping-fev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "regata.js",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "chunk-text": "^1.0.5"
+  },
+  "scripts": {
+    "pt": "node regatas_pt.js",
+    "esp": "node regatas_esp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xani",
+  "license": "ISC"
+}
